@@ -62,3 +62,43 @@ i {
     text-decoration: none;
     background: transparent;
 }
+
+@media (max-width: 768px) {
+    * {
+        font-size: 15px;
+    }
+
+    #imagem1 {
+        width: 9rem;
+    }
+
+    .botoes {
+        padding: 1rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        font-size: 14px;
+    }
+
+    body {
+        padding: 0 0.5rem;
+    }
+
+    #imagem1 {
+        width: 8rem;
+    }
+
+    .botoes {
+        padding: 0.9rem;
+        font-size: 0.9rem;
+        border-radius: 12px;
+    }
+
+    h1, h3, p {
+        text-align: center;
+        word-wrap: break-word;
+    }
+}
