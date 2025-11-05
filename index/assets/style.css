@@ -1,0 +1,64 @@
+* {
+    background-color: rgb(93, 67, 240);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;
+    margin: 1rem;
+}
+
+#imagem1 {
+    width: 12rem;
+}
+
+.texto1 {
+    margin-top: 0.7rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;
+    margin: 1rem;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.botoes {
+    background-color: rgb(115, 93, 243);
+    padding: 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+    width: fit-content; 
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+i {
+    text-decoration: none;
+    background: transparent;
+}
